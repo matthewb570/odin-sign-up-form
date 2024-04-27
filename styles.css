@@ -42,3 +42,7 @@ body {
     align-items: flex-end;
     padding: 2vh 2vw;
 }
+
+.credit a {
+    color: white;
+}
