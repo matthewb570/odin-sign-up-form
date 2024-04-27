@@ -1,7 +1,44 @@
 :root {
-    font-family: 'Alex Brush', handwriting;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    color: red;
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    background-image: url(./images/anne-nygard-ChKVvRDbqew-unsplash.jpg);
+    background-size: cover;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Alex Brush', handwriting;
+    color: white;
+    font-size: 4.5rem;
+    background-color: rgba(156, 156, 156, 0.5);
+    margin: 30vh 0;
+    padding: 0 15%;
+    text-align: center;
+}
+
+.credit {
+    color: white;
+    font-size: 0.8rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2vh 2vw;
 }
