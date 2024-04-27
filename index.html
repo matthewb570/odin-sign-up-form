@@ -8,8 +8,8 @@
         <link href="https://fonts.bunny.net/css?family=alex-brush:400|roboto:400" rel="stylesheet" />
     </head>
     <body>
-        <div class="main-container">
-            <div class="sidebar fullscreen">
+        <div class="outer-container fullscreen">
+            <div class="sidebar">
                 <div class="title">
                     Matthew Burgess
                 </div>
@@ -18,11 +18,51 @@
                 </div>
             </div>
             <div class="main-content">
-                <p>
-                    <!-- TODO: Add opening text -->
-                </p>
+                <div class="content-description">
+                    <p>
+                        This is not a real online service! You know you need
+                        something like this in your life to help you realize your
+                        deepest dreams. Sign up <em>now</em> to get started.
+                    </p>
+                    <p>
+                        You <em>know</em> you want to.
+                    </p>
+                </div>
                 <form>
-                    <!-- TODO: Add form fields -->
+                    <div class="header">Let's do this!</div>
+                    
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="firstName">First Name</label>
+                            <input id="firstName" name="firstName" type="text">
+                        </div>
+                        <div class="form-field">
+                            <label for="lastName">Last Name</label>
+                            <input id="lastName" name="lastName" type="text">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email">
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Phone Number</label>
+                            <input id="phone" name="phone" type="tel">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type="password">
+                        </div>
+                        <div class="form-field">
+                            <label for="passwordConfirm">Confirm Password</label>
+                            <input id="passwordConfirm" name="passwordConfirm" type="password">
+                        </div>
+                    </div>
                     <!-- TODO: Add submit button -->
                 </form>
                 <p>
