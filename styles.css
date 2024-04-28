@@ -79,10 +79,6 @@ form .header {
     margin-bottom: 22px;
 }
 
-.form-row:last-child {
-    margin-bottom: 0px;
-}
-
 .form-field {
     display: flex;
     flex-direction: column;
@@ -112,7 +108,27 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
 input[type="password"]:focus {
-    border-color: lightgreen;
+    border-color: forestgreen;
     outline: none;
     box-shadow: rgba(156, 156, 156) 1px 1px 5px;
+}
+
+.main-content .button-container {
+    padding: 20px 5vw;
+}
+
+button {
+    font-size: 1.2rem;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    background-color: forestgreen;
+    color: white;
+    box-shadow: rgba(156, 156, 156) 1px 1px 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+    color: white;
 }
