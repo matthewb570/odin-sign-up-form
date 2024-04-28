@@ -113,8 +113,10 @@ input[type="password"]:focus {
     box-shadow: rgba(156, 156, 156) 1px 1px 5px;
 }
 
-.main-content .button-container {
-    padding: 20px 5vw;
+.main-content .button-container,
+.main-content .login-link {
+    padding-left: 5vw;
+    margin-top: 30px;
 }
 
 button {
@@ -131,4 +133,14 @@ button {
 button:hover {
     background-color: darkgreen;
     color: white;
+}
+
+.login-link a {
+    color: forestgreen;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.login-link a:hover {
+    color: darkgreen;
 }
