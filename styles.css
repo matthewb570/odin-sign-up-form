@@ -144,3 +144,25 @@ button:hover {
 .login-link a:hover {
     color: darkgreen;
 }
+
+#password + span,
+#passwordConfirm + span {
+    height: 0.8rem;
+}
+
+#password:invalid,
+#passwordConfirm.no-match {
+    border-color: red;
+}
+
+#password:invalid + span::after {
+    content: "Passwords must be at least 8 characters.";
+    color: red;
+    font-size: 0.8rem;
+}
+
+#passwordConfirm.no-match + span::after {
+    content: "Passwords must match.";
+    color: red;
+    font-size: 0.8rem;
+}
